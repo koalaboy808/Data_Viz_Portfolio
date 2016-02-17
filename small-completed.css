@@ -1,0 +1,46 @@
+body {
+	margin: 20px 0;
+	font-size: 18px;
+}
+
+header a {
+	padding: 10px;
+}
+Q
+nav {
+	margin: 10px;
+}
+
+nav a {
+	margin: 0px;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+header {
+	margin: 15px 0;
+	text-align: center;
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+.main-container, .project-image, .project-detail {
+	width: 90%;
+	margin: inherit 0;
+}
+
+.project {
+	margin-bottom: 2em;
+}
+
+
