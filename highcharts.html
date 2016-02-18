@@ -342,7 +342,7 @@ $(function () {
 });
 
 
-        $(document).ready(function() {
+
             $(function () {
               Highcharts.setOptions({
                 chart: {
@@ -418,7 +418,6 @@ $(function () {
                 }
               })
             });
-        });
         
             var chartOne = {
                 chart: {
@@ -505,7 +504,7 @@ $(function () {
 
 
             // open csv file as data
-            $.get("static_high/_data/VATW_datasets_Music_fanadjusted.csv", function (data) {
+            $.get("music_data.csv", function (data) {
                 var lines = data.split("\r");
                 // console.log(lines);
 
