@@ -164,7 +164,7 @@ a:hover {
 h1 {
 	/*font-family: 'Lobster', cursive;*/
 	font-family: Proxima Nova, sans-serif;
-	font-size: 5em;
+	font-size: 5.5em;
 	font-weight: bold;
 	color: #020122;
 }
@@ -287,9 +287,35 @@ p {
 }
 
 .monster {
-	width:40%;
+	width:100%;
+	display: block;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	margin-top:1em;
+	clear: both;
+	/*margin-left: -7em;*/
+}
+
+.monster img {
+	max-width: 50%;
+}
+
+.arrow {
+	/*width:10%;*/
+	display: block;
+	float: right;
 	margin-left: 1em;
 	margin-bottom: 1em;
 	margin-top:1em;
 	/*margin-left: -7em;*/
+}
+
+.top-wrapper {
+	/*width: 100%;*/
+	display: block;
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	margin-top:1em;
+	clear: both;
 }
