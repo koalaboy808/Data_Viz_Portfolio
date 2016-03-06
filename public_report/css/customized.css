@@ -380,3 +380,12 @@ th, td {
   visibility: visible;
   opacity: 1;
 }
+
+.spacing_photo img {
+	width: 35%;
+	margin: .2em;
+	border: 1px solid;
+}
+.spacing_photo {
+	padding-bottom: 4em;
+}
