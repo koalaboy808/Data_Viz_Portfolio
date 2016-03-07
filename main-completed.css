@@ -319,3 +319,18 @@ p {
 	margin-top:1em;
 	clear: both;
 }
+
+.spacing_photo img {
+	width: 70%;
+	margin: 1.5em;
+	border: 1px solid;
+	text-align: center;
+}
+.spacing_photo {
+	padding-bottom: 4em;
+}
+
+em {
+	width: 70%;
+	font-style: italic;
+}
